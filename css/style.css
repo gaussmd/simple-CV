@@ -1,36 +1,71 @@
 body{
-    background-color: #C0DBEA;
-    font-family: monospace;
+    margin: 0 0;
+    text-align: center;
 }
+
 h1{
    color: #009FBD;
+   font-family: 'Ubuntu', sans-serif;
 }
 h2{
  color: #009FBD;
+ font-family: 'Ubuntu', sans-serif;
 }
 img{
     border-radius: 100%;
-    box-shadow: 0 0 10px 2px rgb(249, 241, 19);
+    /* box-shadow: 0 0 10px 2px rgb(249, 241, 19); */
 }
-.main-container{
-    height: 200px;
-    width: 200px;
-    background-color: #bff;
-    box-shadow: 0 0 10px 2px rgb(0, 0, 0.3);
-    margin-left: 40px;
-    padding: 5px;
+table{
+    margin-left: 500px;
+    font-family: 'Ubuntu', sans-serif;
 }
-/* .container{
-    height: 200px;
-    width: 200px;
-    background-color: red;
-    border: 10px solid;
-    margin-left: 260px;
+
+.container{
+    background-color: #C0DBEA;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
-.bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
-    border: 5px solid;
-    margin-left: 478px;
-} */
+.container.img1{
+     padding: 0;
+     position: absolute;
+     top: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+.projects table{
+    width: 310px;
+    font-family: 'Ubuntu', sans-serif;
+}
+hr{
+    border: dotted #000000 6px;
+    border-bottom: none;
+}
+.bottom{
+    background-color: aqua;
+    font-size: 30px;
+    padding: 10px 0 20px;
+}
+a:hover{
+    transition: 200ms all ease-out;
+    font-size: 31px;
+}
+.bottom p{
+   font-size: 15px;
+}
+button{
+    background-color: #1b1a1a;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+button:hover{
+    transition: 200ms all ease-in;
+    font-size: 21px;
+    background-color: #000000;
+    border: 0px;
+}
